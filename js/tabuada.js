@@ -12,12 +12,6 @@ function calcular(){
         const conta = "<p>"+tabuadaDo+" x "+i+" = "+tabuadaDo*i+"</p>";
         mostrar.innerHTML +=conta;
     }
-    if(tabuadaDo*i>1000){
-        mostrar.style.width='70%'
-    }
-    if(tabuadaDo*i<1000){
-        mostrar.style.width='45%'
-    }
 
     mostrar.innerHTML += '<div class="margem"><p>.</p></div>';
 
